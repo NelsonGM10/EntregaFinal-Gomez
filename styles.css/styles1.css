@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(180, 175, 175);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 7px;
+  
+}
+
+#titulo{
+    display: grid;
+    justify-content: center;
+    color: aliceblue;
+    background-image: url(https://img2.wallspic.com/crops/3/5/4/0/5/150453/150453-azul-rojo-area_urbana-luz-urbe-3970x4962.jpg);
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+    
+}
+#subtitulo{
+    display: grid;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#contenedorInicio{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30rem;
+    margin:5px ;
+    justify-content: center;
+
+}
+
+.incioUno{
+    border: 2px solid gold;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    padding-top: 3px;
+    padding-bottom:3px;
+
+}
+
+.inicioDos{
+    display: flex;
+    width: 600px;
+    height: 475px;
+}
+
+.foto{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.foto:hover{
+    cursor:auto;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+.contenedorBebidas{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30rem;
+    margin:5px ;
+    justify-content: center;
+
+}
+.bebidasUno{
+    border: 2px solid gold;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    padding-top: 3px;
+    padding-bottom:3px;
+    justify-content: center;
+
+}
+
+.bebidasDos{
+    display: flex;
+    width: 600px;
+    height: 475px;
+}
+
+.foto{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.foto:hover{
+    cursor:auto;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
