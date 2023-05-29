@@ -104,3 +104,9 @@ body{
     opacity: 1;
     filter: contrast(120%);
 }
+
+.form-group{
+    color: black;
+    font-weight: bold;
+    
+}
