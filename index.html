@@ -1,89 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles.css/styles1.css">
-    
-    <title>DrinkHouse</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css/styles1.css" />
+
+    <title>Wano Gallery</title>
+  </head>
+  <body>
     <!-- header -->
     <div id="titulo">
-        <h1>DrinkHouse</h1>
+      <h1>Wano Gallery</h1>
     </div>
     <div id="subtitulo">
-    <h2>Delivery Liquor</h2>
+      <h2>The best art of anime</h2>
     </div>
     <!-- sections -->
     <!-- barra de navegacion (bootstrap) -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">DirnkHouse</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/menu.html">Bebidas</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Contáctanos
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="https://instagram.com/nelsongm1029?igshid=YmMyMTA2M2Y="   target="_blank">Instgram</a>
-                <a class="dropdown-item" href="https://www.facebook.com/nelson.gomez.73?mibextid=LQQJ4d" target="_blank">Facebook</a>
-                <a class="dropdown-item" href="https://web.whatsapp.com/" target="_blank">WhatsApp</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-  <!-- seccion dos -->
-  <div id="contenedorInicio">
-      <div class="inicioUno">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Totam neque aliquam tempore ex enim ab fugit saepe sed quisquam,
-        dolore voluptas rerum placeat. Cumque natus quia ratione tenetur beatae excepturi!
+      <a class="navbar-brand" href="./index.html">Home</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="./pages/arte.html"
+              >Art <span class="sr-only">(current)</span></a
+            >
+          </li>
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Contact Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a
+                class="dropdown-item"
+                href="https://instagram.com/nelsongm1029?igshid=YmMyMTA2M2Y="
+                target="_blank"
+                >Instgram</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.facebook.com/nelson.gomez.73?mibextid=LQQJ4d"
+                target="_blank"
+                >Facebook</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://web.whatsapp.com/"
+                target="_blank"
+                >WhatsApp</a
+              >
+            </div>
+          </li>
+        </ul>
       </div>
-        <section class="inicioDos">
-          <img class="foto" src="./img/bebidas.PNG" alt="">
-          <img class="foto" src="./img/black.jpg" alt="">
-          <img class="foto" src="./img/smirnoff.jpg" alt="">
-          <img class="foto" src="./img/fria.jpg" alt="">
-        </section>
-  </div><br><br>
+    </nav>
+    <!-- seccion dos -->
+    <div class="contenedorInicio">
+      <section class="bienvenido">
+        <h6>
+          Bienvenido a Wano Gallery, la mejor calidad de arte en cuadros que hay
+          en el mercado acá la puedes encontrar. Tambien te brindamos un
+          excelente servicio a un gran precio
+        </h6>
+      </section>
 
-  <form>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      <section class="arteDos">
+        <img class="foto" src="./img/luffy.png" alt="" />
+        <img class="foto" src="./img/kamado.webp" alt="" />
+        <img class="foto" src="./img/naruto.jpg" alt="" />
+        <img class="foto" src="./img/goku.jpeg" alt="" />
+      </section>
     </div>
-    <div class="form-group">
-      <label for="exampleInputPassword1">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-    </div>
-    <div class="form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
 
+    <section class="arteTres">
+      <h6>
+        Somos una empresa que se encarga de atender tus gustos referentes al
+        anime top 4 actual del mercado siendo representado en nuestras pinturas
+        para un tamaño standar de 1 metro de alto x 70cm de ancho
+      </h6>
+    </section>
+    
+    
 
-  
-
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
