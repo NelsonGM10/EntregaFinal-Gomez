@@ -80,12 +80,13 @@
     </nav>
     <!-- seccion dos -->
     <div class="contenedorInicio">
-      <section class="bienvenido">
-        <h6>
-          Bienvenido a Wano Gallery, la mejor calidad de arte en cuadros que hay
-          en el mercado acá la puedes encontrar. Tambien te brindamos un
-          excelente servicio a un gran precio
-        </h6>
+      <section class="welcome">
+        <p>
+          Before knowing our works of art.
+          If you are interested in buying an artistic piece;
+          First you must fill out the form that is shown at the bottom of the page,
+          click <a href="#conteneForm">here</a> to go to the form
+        </p>
       </section>
 
       <section class="arteDos">
@@ -96,13 +97,38 @@
       </section>
     </div>
 
-    <section class="arteTres">
-      <h6>
-        Somos una empresa que se encarga de atender tus gustos referentes al
-        anime top 4 actual del mercado siendo representado en nuestras pinturas
-        para un tamaño standar de 1 metro de alto x 70cm de ancho
-      </h6>
-    </section>
+    <div class="containerFooter">
+  
+      <footer class="footer">
+        <form class="row g-3 needs-validation" id="conteneForm" novalidate>
+          <div class="col-md-4 position-relative">
+            <label for="validationTooltip01" class="form-label">Full name</label>
+            <input type="text" class="form-control" id="validationTooltip01" value="" required>
+            <div class="valid-tooltip">
+              Looks good!
+            </div>
+          </div>
+          
+          <div class="col-md-6 position-relative">
+            <label for="validationTooltip03" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationTooltip02" required>
+            <div class="invalid-tooltip">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3 position-relative">
+            <label for="validationTooltip05" class="form-label">Adress</label>
+            <input type="text" class="form-control" id="validationTooltip03" required>
+            <div class="invalid-tooltip">
+              Please provide an adress
+            </div>
+          </div>
+          <div class="col-12">
+            <button id="enviar" class="btn btn-primary" type="submit">Submit form</button>
+          </div>
+        </form>
+      </footer>
+  
     
     
 
@@ -116,6 +142,6 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    <script src="./app.js"></script>
+    <script src="./form.js"></script>
   </body>
 </html>
