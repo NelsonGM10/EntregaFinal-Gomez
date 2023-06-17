@@ -1,4 +1,5 @@
 const btnCart = document.querySelector(".container-cart-icon");
+const btnBuyCart = document.querySelector("#buy");
 const containerCartProducts = document.querySelector(
   ".container-cart-products"
 );
@@ -6,19 +7,20 @@ const containerCartProducts = document.querySelector(
 btnCart.addEventListener("click", () => {
   containerCartProducts.classList.toggle("hidden-cart");
 });
+
 /*----------------------------------------------*/
 const cartInfo = document.querySelector(".cart-product");
 const rowProdcut = document.querySelector(".row-product");
 
 /* lista contenedor productos*/
-const producsList = document.querySelector(".container-items");
+const productsList = document.querySelector(".container-items");
 
 let allProducts = [];
 
 const valorTotal = document.querySelector(".total-pagar");
 const countProducts = document.querySelector("#contador-productos");
 
-producsList.addEventListener("click", (e) => {
+productsList.addEventListener("click", (e) => {
   if (e.target.classList.contains("btn-add-cart")) {
     const product = e.target.parentElement;
     const infoProduct = {
@@ -30,7 +32,6 @@ producsList.addEventListener("click", (e) => {
     const exits = allProducts.some(
       (product) => product.title === infoProduct.title
     );
-    
 
     if (exits) {
       const products = allProducts.map((product) => {
@@ -59,7 +60,7 @@ rowProdcut.addEventListener("click", (e) => {
   }
 });
 
-/*limpiar carrito*/
+/*leliminar producto*/
 const showShop = () => {
   rowProdcut.innerHTML = "";
 
@@ -101,5 +102,25 @@ const showShop = () => {
   valorTotal.innerText = `$${total}`;
   countProducts.innerText = totalShop;
 };
+
+btnBuyCart.addEventListener("click", () => {
+
+  const dataCar = JSON.stringify(allProducts);
+  console.log(dataCar);
+
+  // mostrar o utilizar datos del localStorage
+  //data en el localStorage
+  localStorage.setItem('jsonCar', dataCar)  
+
+  // mostrar o utilizar datos del localStorage
+
+  // limpiar todo  el carrito post compra
+  allProducts = [];
+  showShop();
+
+  alert("finalize purchase");
+
+  
+});
 
 

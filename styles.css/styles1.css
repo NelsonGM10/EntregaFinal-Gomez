@@ -82,6 +82,52 @@ body {
   justify-content: center;
 }
 
+/* footer form*/
+
+.form-label {
+  
+  font-weight: bold;
+  color: white;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  margin-left: 3px;
+}
+
+
+.form-control {
+  margin-left: 3px;
+  border: 4px solid rgb(2, 116, 102);
+  width: 350px;
+}
+
+#enviar:hover {
+height: 60px; 
+width: 125px;
+background-color:rgb(2, 116, 102);
+border: 2px solid white
+  
+}
+#enviar {
+  background-color: rgb(18, 17, 17);
+  font-weight: bold;
+  margin-top: 14px;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  border: 2px solid rgb(2, 116, 102) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* pagina Art */
 *::after,
 *::before,
@@ -391,6 +437,13 @@ header h1 {
   display: none;
 }
 
+#buy{
+  color:black;
+  font: bold;
+
+  
+}
+
 /* body */
 
 body {
@@ -459,35 +512,3 @@ body {
   cursor: pointer;
 }
 
-/* footer form*/
-
-.form-label {
-  font-weight: bold;
-  color: white;
-  margin-top: 10px;
-  margin-bottom: 12px;
-  margin-left: 3px;
-}
-
-
-.form-control {
-  margin-left: 3px;
-  border: 4px solid rgb(2, 116, 102);
-  width: 350px;
-}
-
-#enviar:hover {
-height: 60px; 
-width: 125px;
-background-color:rgb(2, 116, 102);
-border: 2px solid white
-  
-}
-#enviar {
-  background-color: rgb(18, 17, 17);
-  font-weight: bold;
-  margin-top: 14px;
-  margin-left: 5px;
-  margin-bottom: 30px;
-  border: 2px solid rgb(2, 116, 102) ;
-}

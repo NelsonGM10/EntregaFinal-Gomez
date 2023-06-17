@@ -2,19 +2,19 @@ const datos = document.querySelector("#conteneForm");
 const nameUser = document.querySelector("#validationTooltip01");
 nameUser.addEventListener("input", (e) => {
   if (e.target.value === "") {
-    alert("ingrese nombre");
+    alert("Enter your name please");
   }
 });
 const datoCiudad = document.querySelector("#validationTooltip02");
 datoCiudad.addEventListener("input", (e) => {
   if (e.target.value === "") {
-    alert("ingrese ciudad");
+    alert("Enter a city please");
   }
 });
 const datoDireccion = document.querySelector("#validationTooltip03");
 datoDireccion.addEventListener("input", (e) => {
   if (e.target.value === "") {
-    alert("ingrese una dirección");
+    alert("Enter an address please");
   }
 });
 datos.addEventListener("submit", confirmarDatos);
@@ -22,6 +22,7 @@ datos.addEventListener("submit", confirmarDatos);
 function confirmarDatos(e) {
   e.preventDefault();
   alert(
-    `Gracias ${nameUser.value} por tu compra, tu pedido será enviado a la ciudad de ${datoCiudad.value} en la direccion  ${datoDireccion.value} `
+    `Thank's ${nameUser.value} for you purchase, your order will be sent to the city of ${datoCiudad.value} at address  ${datoDireccion.value} `
   );
 }
+
