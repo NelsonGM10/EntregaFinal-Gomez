@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wano Shop</title>
+    <title>Wano Art</title>
     <link rel="stylesheet" href="../styles.css/styles1.css" />
   </head>
   <body>
@@ -15,7 +15,7 @@
       <h1>Wano Shop</h1>
 
       <div class="container-icon">
-        <div class="container-cart-icon">
+        <div class="carrito-icono">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -30,14 +30,14 @@
               d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
             />
           </svg>
-          <div class="count-products">
-            <span id="contador-productos">0</span>
+          <div class="cuentaProductos">
+            <span id="contadorProductos">0</span>
           </div>
         </div>
-        <div class="container-cart-products hidden-cart">
-          <div class="row-product">
-            <div class="cart-product">
-              <div class="info-cart-product">
+        <div class="contenedor-carrito-productos hidden-cart">
+          <div class="producto-agregado">
+            <div class="carrito-producto">
+              <div class="info-producto-carrito">
                 <span class="cantidad-producto-carrito"></span>
                 <p class="titulo-producto-carrito"></p>
                 <span class="precio-producto-carrito">$0</span>
@@ -49,7 +49,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="icon-close"
+                class="cerrar-icono"
               >
                 <path
                   stroke-linecap="round"
@@ -60,132 +60,134 @@
             </div>
           </div>
 
-          <div class="cart-total">
+          <div class="total-carrito">
             <h3>Total:</h3>
             <span class="total-pagar">$</span>
-            <button class="btn btn-primary" id="buy">Buy</button>            
+            <a href="../index.html">
+              <button class="btn btn-primary" id="buy">Buy</button>
+            </a>
           </div>
         </div>
       </div>
     </header>
-    <div class="container-items">
-      <div class="item">
+    <div class="contenedor-catalogo">
+      <div class="cuadro">
         <figure>
           <img src="../img/sayajin.jpeg" alt="producto" />
         </figure>
-        <div class="info-product">
+        <div class="info-producto">
           <h2>Goku SSJ4</h2>
-          <p class="price">$75</p>
+          <p class="precio">$75</p>
           <button class="btn-add-cart">Add</button>
         </div>
       </div>
-      <div class="item">
+      <div class="cuadro">
         <figure>
           <img src="../img/vegeta.jpg" alt="producto" />
         </figure>
-        <div class="info-product">
+        <div class="info-producto">
           <h2>Majin Vegeta</h2>
-          <p class="price">$65</p>
+          <p class="precio">$65</p>
           <button class="btn-add-cart">Add</button>
         </div>
       </div>
-      <div class="item">
+      <div class="cuadro">
         <figure>
           <img src="../img/gohan.jpg" alt="producto" />
         </figure>
-        <div class="info-product">
+        <div class="info-producto">
           <h2>Gohan SSJ2</h2>
-          <p class="price">$70</p>
+          <p class="precio">$70</p>
           <button class="btn-add-cart">Add</button>
         </div>
       </div>
-      <div class="item">
+      <div class="cuadro">
         <figure>
           <img src="../img/uzumaki.jpg" alt="producto" />
         </figure>
-        <div class="info-product">
+        <div class="info-producto">
           <h2>Naruto Uzumaki</h2>
-          <p class="price">$70</p>
+          <p class="precio">$70</p>
           <button class="btn-add-cart">Add</button>
         </div>
       </div>
-      <div class="item">
+      <div class="cuadro">
         <figure>
           <img src="../img/sasuke.webp" alt="producto" />
         </figure>
-        <div class="info-product">
+        <div class="info-producto">
           <h2>Sasuke Uchiha</h2>
-          <p class="price">$70</p>
+          <p class="precio">$70</p>
           <button class="btn-add-cart">Add</button>
         </div>
       </div>
-      <div class="item">
+      <div class="cuadro">
         <figure>
           <img src="../img/madara.jpg" alt="producto" />
         </figure>
-        <div class="info-product">
+        <div class="info-producto">
           <h2>Madara Uchiha</h2>
-          <p class="price">$70</p>
+          <p class="precio">$70</p>
           <button class="btn-add-cart">Add</button>
         </div>
       </div>
-      <div class="item">
+      <div class="cuadro">
         <figure>
           <img src="../img/gear.jpg" alt="producto" />
         </figure>
-        <div class="info-product">
+        <div class="info-producto">
           <h2>Mokey D Luffy</h2>
-          <p class="price">$70</p>
+          <p class="precio">$70</p>
           <button class="btn-add-cart">Add</button>
         </div>
       </div>
-      <div class="item">
+      <div class="cuadro">
         <figure>
           <img src="../img/zoro.jpg" alt="producto" />
         </figure>
-        <div class="info-product">
+        <div class="info-producto">
           <h2>Roronoa Zoro</h2>
-          <p class="price">$70</p>
+          <p class="precio">$70</p>
           <button class="btn-add-cart">Add</button>
         </div>
       </div>
-      <div class="item">
+      <div class="cuadro">
         <figure>
           <img src="../img/asce.avif" alt="producto" />
         </figure>
-        <div class="info-product">
+        <div class="info-producto">
           <h2>Portgas D Asce</h2>
-          <p class="price">$70</p>
+          <p class="precio">$70</p>
           <button class="btn-add-cart">Add</button>
         </div>
       </div>
-      <div class="item">
+      <div class="cuadro">
         <figure>
           <img src="../img/tanjiro.jpg" alt="producto" />
         </figure>
-        <div class="info-product">
+        <div class="info-producto">
           <h2>Tanjiro Kamado</h2>
-          <p class="price">$70</p>
+          <p class="precio">$70</p>
           <button class="btn-add-cart">Add</button>
         </div>
       </div>
-      <div class="item">
+      <div class="cuadro">
         <figure>
           <img src="../img/zentisu.jpeg" alt="producto" />
         </figure>
-        <div class="info-product">
+        <div class="info-producto">
           <h2>Zenitsu</h2>
-          <p class="price">$70</p>
+          <p class="precio">$70</p>
           <button class="btn-add-cart">Add</button>
         </div>
       </div>
-      <div class="item">
+      <div class="cuadro">
         <figure>
           <img src="../img/rengoku.jpg" alt="producto" />
         </figure>
-        <div class="info-product">
+        <div class="info-producto">
           <h2>Rengoku</h2>
-          <p class="price">$70</p>
+          <p class="precio">$70</p>
           <button class="btn-add-cart">Add</button>
         </div>
       </div>

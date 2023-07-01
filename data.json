@@ -1,0 +1,53 @@
+[
+    {
+        "cuadro": "Goku SJJ4",
+        "precio" : 75
+    },
+    
+    {
+        "cuadro": "Magin Vegeta",
+        "precio" : 65
+    },
+    {
+        "cuadro": "Gohan SJJ2",
+        "precio" : 70
+    },
+    
+    {
+        "cuadro": "Naruto Uzumaki",
+        "precio" : 70
+    },
+    {
+        "cuadro": "Sasuke Uchiha",
+        "precio" : 70
+    },
+    
+    {
+        "cuadro": "Madara Uchiha",
+        "precio" : 70
+    },
+    {
+        "cuadro": "Monkey D Luffy",
+        "precio" : 70
+    },
+    {
+        "cuadro": "Roronoa Zoro",
+        "precio" : 70
+    },
+    {
+        "cuadro": "Portgas D Asce",
+        "precio" : 70
+    },
+    {
+        "cuadro": "Tanjiro Kamado",
+        "precio" : 70
+    },
+    {
+        "cuadro": "Zenitzu",
+        "precio" : 70
+    },
+    {
+        "cuadro": "Rengoku",
+        "precio" : 70
+    }
+]
